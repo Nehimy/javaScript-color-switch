@@ -1,0 +1,12 @@
+#cuadrado{
+	background-color:#998263;
+  border-radius: 15px;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+  height: 10%;
+  position: relative;
+  width: 6%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  padding: 50px 0px;
+}

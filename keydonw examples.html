@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<script>
+			window.addEventListener('keydown', test, false);
+			function test(event){
+				if(event.keyCode == '37'){//Izquierda		
+					alert('a');
+				}
+				if(event.keyCode == '39'){//Derecha					
+					alert('b');
+				}
+			}
+			
+			//eventTarget
+			window.addEventListener("keyup", event => {
+			if (event.keyCode == 13){
+				console.log('hola ney');
+			}
+				// do something
+			});
+
+			window.addEventListener('keydown', Mi_funcion);
+			function Mi_funcion(){
+				if(e.keyCode == 'número en javaScript de la tecla'){
+					accion a ejecutar
+				}
+			}			
+
+			window.onkeyup = function (event, index) {
+				
+			}
+
+			function precionada(enevto){
+
+			}
+
+			window.onkeyup = precionada
+		</script>
+	</body>
+</html>
